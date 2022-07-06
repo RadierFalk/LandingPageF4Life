@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Styles/reset.css" rel="stylesheet">
+    <link href="./Styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f6fce831c.js" crossorigin="anonymous"></script>
+    <title>Landing Page F4Life</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <img src="./componentes/f4life.png" width="200" height="200" alt="Icon F4Life">
+
+        <ul>
+            <a href="#QuemSomos">
+                <li>Quem Somos</li>
+            </a>
+            <a href="#FaleConosco">
+                <li>Fale conosco</li>
+            </a>
+        </ul>
+
+    </header>
+
+    <main>
+        <section class="QuemSomos">
+
+            <h2><a name="QuemSomos">Quem somos</a></h2>
+            <div class="Sobre">
+                <p>
+                    F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a
+                    vida de graduação.
+                </p>
+            </div>
+
+            <div class="moradias">
+                <ul>
+                    <li>
+                        <h3>Locais Organizados</h3>
+                        <img src="./componentes/moradia-compartilhada2.jpg" width="300" height="200" alt="Moradia1">
+                        <p>Estrutura completa para seu conforto!</p>
+                    </li>
+                    <li>
+                        <h3>Perto dos seus estudos</h3>
+                        <img src="./componentes/moradia-compartilhada-4.jpg" width="300" height="200" alt="Moradia3">
+                        <p>Locais proximos às principais Universidades.</p>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <section class="FaleConosco">
+                <h4><a name="FaleConosco">Fale conosco</a></h4>
+                <br>
+                <form>
+
+                    <label for="nomeCompleto">Nome completo</label>
+                    <input type="text" id="nomeCompleto" class="input_form" required>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input type="email" pattern="[a-zA-Z0-9.]{32}+@[a-zA-Z0-9.]$" id="email" class="input_form" required placeholder="seuemail@dominio.com">
+                    <br>
+                    <br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="30" rows="10" id="mensagem" class="input_form" required></textarea>
+
+                    <input type="submit" id="send" class="input_submit" value="Enviar">
+                </form>
+            </section>
+            <br>
+            <footer>
+
+                <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="blank"><i class="fa-brands fa-instagram"></i></a>
+
+            </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

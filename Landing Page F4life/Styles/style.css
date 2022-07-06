@@ -1,0 +1,113 @@
+body {
+    color: rgba(0, 224, 224, 0.856);
+    max-width: max-content;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: linear-gradient(rgb(13, 20, 22), rgba(39, 72, 84), rgb(28, 96, 121), rgb(25, 124, 160), rgb(2, 164, 223));
+    animation-name: degrade;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho {
+    background-color: rgba(19, 34, 53, 255);
+}
+
+.cabecalho a {
+    color: rgba(104, 212, 205);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: 40px;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px 10px;
+}
+
+.Sobre {
+    text-align: justify;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.moradias {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.moradias li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+form {
+    margin: 50 px 0;
+}
+
+form label {
+    font-size: 30px;
+}
+
+form p {
+    display: block;
+    font-size: 30 px;
+    margin: 0 0 10px;
+}
+
+.input_form {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 8px;
+    width: 50%;
+}
+
+.input_submit {
+    width: 30%;
+    height: 40px;
+    background-color: rgba(19, 34, 53, 255);
+    border: none;
+    color: #ffffff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(19, 34, 53, 255);
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(104, 212, 205);
+    background-color: transparent;
+}
+
+.errorInput {
+    border: 2px solid rgb(247, 70, 70) !important;
+}
